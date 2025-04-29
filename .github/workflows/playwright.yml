@@ -34,7 +34,7 @@ jobs:
       env:
         AZCOPY_AUTO_LOGIN_TYPE: SPN
         AZCOPY_SPA_CLIENT_SECRET: '${{secrets.AZURE_CLIENT_SECRET}}'
-        AZCOPY_SPA_CLIENT_Username: '${{secrets.AZURE_APPLICATION_ID}}'
+        AZCOPY_SPA_CLIENT_ID: '${{secrets.AZURE_APPLICATION_ID}}'
         AZCOPY_SPA_TENANT_ID: '${{secrets.AZURE_TENANT_ID}}'
         
           
