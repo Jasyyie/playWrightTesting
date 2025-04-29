@@ -33,9 +33,9 @@ jobs:
         echo "::notice title=HTML report url::https://jaztur.z1.web.core.windows.net/$REPORT_DIR/index.html"
       env:
         AZCOPY_AUTO_LOGIN_TYPE: SPN
-        AZCOPY_SPA_CLIENT_SECRET: '${{secrets.AzureClientPassword}}'
-        AZCOPY_SPA_CLIENT_Username: '${{secrets.AzureClientUsername}}'
-        AZCOPY_SPA_TENANT_ID: '${{secrets.AzureTenantId}}'
+        AZCOPY_SPA_CLIENT_SECRET: '${{secrets.AZURE_CLIENT_SECRET}}'
+        AZCOPY_SPA_CLIENT_Username: '${{secrets.AZURE_APPLICATION_ID}}'
+        AZCOPY_SPA_TENANT_ID: '${{secrets.AZURE_TENANT_ID}}'
         
           
           
